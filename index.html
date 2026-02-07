@@ -51,19 +51,7 @@
 <script src="/vendor/videojs/video.min.js"></script>
 <script src="/vendor/viewer/viewer.min.js"></script>
 <script src="/vendor/x/widgets.js" defer></script>
-<script src="https://unpkg.com/@studio-freight/lenis"></script>
-<script>
-const lenis = new Lenis({
-  smooth: true,
-  lerp: 0.08
-});
 
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
-</script>
 
 </body>
 </html>
